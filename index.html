@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>day1</title>
+    <title>my website</title>
+    <style>
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        table{
+            border: 1px solid black;
+            
+            border-style: inset;
+        }
+    </style>
 </head>
 <body>
     <h1>hello world</h1>
-    <p>this is an update</p>
-    <p>this is also an update</p>
-    <h3>welcome!</h3>
+    <p>this is a <i><b>pharagraph</b></i></p>
+    <ol type="1">
+        <li>ini ke-1</li>
+        <li>ini ke-2</li>
+        <li>ini ke-3</li>
+    </ol>
+    <h2> ini table</h2>
+    <table border="1">
+        <tr>
+            <td>nama</td>
+            <td>lokasi</td>
+            <td>email</td>
+        </tr>
+        <tr>
+            <td>Rafly</td>
+            <td>Bogor</td>
+            <td>hooh@123.com</td>
+        </tr>
+    </table>
+    <img src="https://assets3.thrillist.com/v1/image/3005222/792x918/scale;webp=auto;jpeg_quality=60.jpg" alt="jinx the cat" width="200px" height="300px"/>
+
+    <h2>ini form html</h2> 
+    <form action="">
+        <label for="name">name:</label>
+        <input id="name" type="text"/>
+        <umur for="age">age:</umur>
+        <input id="age" type="number" min="1" max="100"/>
+        
+    <!-- ini select form -->
+    <h2>warna favoritmu</h2>
+        <select>
+            <option>merah</option>
+            <option>hijau</option>
+            <option>kunig</option>
+            <option>biru</option>
+        </select>
+        <br>
+
+        <!-- ini input radio -->
+        <h2>bahasa pemograman favoritmu</h2>
+        <input type="radio" id="html" name="fav_lng" value="html">
+        <label for="html">html<br></label> 
+        <input type="radio" id="css" name="fav_lng" value="css">
+        <label for="html">css<br></label> 
+        <input type="radio" id="python" name="fav_lng" value="python">
+        <label for="html">python<br></label> 
+    </form>
 </body>
 </html>
